@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace HomeWork
 {
@@ -11,6 +12,7 @@ namespace HomeWork
         static void Main(string[] args)
         {
             //Задание 1
+            
             Console.WriteLine("Задание 1");
             Console.WriteLine(" ");
             Console.WriteLine("Привет! Заполним анкету. как тебя зовут?");
@@ -19,8 +21,6 @@ namespace HomeWork
             string lastName = Console.ReadLine();
             Console.WriteLine("Сколько тебе лет?");
             int age = Convert.ToInt32(Console.ReadLine());
-
-
             Console.WriteLine("Твой вес (кг)?");
             double weight = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Твой рост (см)?");
@@ -48,7 +48,7 @@ namespace HomeWork
             Exercise3();
             Console.ReadLine();
 
-
+            
 
 
         }
@@ -72,6 +72,11 @@ namespace HomeWork
 
             Console.WriteLine($"Расстояние между точками: {Math.Round(r, 2)}");
         }
+
+
+
+       
+               
     }
     
 }
