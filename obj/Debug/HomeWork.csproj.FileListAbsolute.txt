@@ -1,0 +1,6 @@
+D:\Gamedev\Study\C#Learning\HomeWorkGeekBrains\HomeWork\bin\Debug\HomeWork.exe.config
+D:\Gamedev\Study\C#Learning\HomeWorkGeekBrains\HomeWork\bin\Debug\HomeWork.exe
+D:\Gamedev\Study\C#Learning\HomeWorkGeekBrains\HomeWork\bin\Debug\HomeWork.pdb
+D:\Gamedev\Study\C#Learning\HomeWorkGeekBrains\HomeWork\obj\Debug\HomeWork.csprojAssemblyReference.cache
+D:\Gamedev\Study\C#Learning\HomeWorkGeekBrains\HomeWork\obj\Debug\HomeWork.exe
+D:\Gamedev\Study\C#Learning\HomeWorkGeekBrains\HomeWork\obj\Debug\HomeWork.pdb
