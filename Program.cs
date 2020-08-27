@@ -34,6 +34,7 @@ namespace HomeWork
             Console.WriteLine(" ");
             Console.WriteLine("Задание 2");
             Console.WriteLine(" ");
+            Console.WriteLine("Ваш ИМТ:");
 
             double I = weight / (growth * growth * 0.0001);
 
@@ -43,8 +44,8 @@ namespace HomeWork
             Console.WriteLine(" ");
             Console.WriteLine("Задание 3");
             Console.WriteLine(" ");
-            Exercise3();
 
+            Exercise3();
             Console.ReadLine();
 
 
@@ -55,15 +56,20 @@ namespace HomeWork
         {
             Console.WriteLine("Введите координату х1");
             double x1 = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите координату х2");
             double x2 = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите координату y1");
             double y1 = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("Введите координату y2");
             double y2 = Convert.ToDouble(Console.ReadLine());
 
             double r = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+            
             Console.WriteLine(" ");
+
             Console.WriteLine($"Расстояние между точками: {Math.Round(r, 2)}");
         }
     }
